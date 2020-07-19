@@ -1,0 +1,65 @@
+/* CSS files add styling rules to your content 
+https://www.mkatwood.com/
+mobile
+*/
+
+body {
+  background-color: #fbc3b0; /* soft red*/
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+      *{
+        margin:0;
+        padding:0;
+      }
+      #Banner{
+        background-color: white;
+        width:100%;
+        height:100px;
+        overflow:hidden;
+      }
+      .emblem{
+        float:left;
+        margin-left:10px;
+        margin-right:10px;
+        width:100px;
+        height:100px;
+      }
+      #main{
+        float:right;
+        width:60%;
+        overflow:hidden;
+      }
+      nav {
+        background-color:lightblue;
+        position:fixed;
+        float:left;
+        width:35%;
+        height:100%;
+
+      }
+img {
+  display:block;
+    float:none;
+}
+button {
+  background-color: #afeeee; /* Cyan */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+button:hover{
+  background-color: #ff9b9b; /* Cyan */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}

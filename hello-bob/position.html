@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CSS Float and Clear</title>
+        <style>
+
+            .static {
+                position:static;
+                border:blue 3px solid;
+                padding:10px;
+                margin-bottom:20px;
+                height:200px;
+            }
+            
+            .fixed {
+                border:green 3px solid; 
+                position:fixed;
+                height:100px;
+                bottom: 50px;
+                right:50px;
+            }
+            
+            .relative {
+                position:relative;
+                border:orange 3px solid;
+                padding:10px;
+                height:200px;
+                margin-bottom:20px;
+                left:50px;
+            }
+            
+            .absolute {
+                position:absolute;
+                border:red 3px solid;
+                height:100px;
+                width:50%;
+                bottom:0;
+                left:0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Demo of CSS Position</h1>
+        <div class="static">
+        Hi! I'm a static div. I appear where you expect me to appear. I'm reliable like that. Top, Bottom, Left, and Right don't work with me. Sad Emoji.   
+        </div>  
+        
+        <div class="fixed">
+        Hi! I'm a fixed div. I stay in my place relative to the viewport.
+        </div>
+        
+        <div class="relative">
+        Hello! I'm a relative div. You can reposition me relative to where I would usually appear if I were static. I am currently 50px away from the left, in other words, 50px to the right.  
+            
+        <div class="absolute">
+        Greetings darling! I'm an absolute div, and I'm absolutely FABULOUS! I'm absolutely devoted to my ancestor, Relative.  
+        <a href="position_window.html">a window</a>
+        </div>    
+        </div>    
+        
+         <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+    </body>
+</html>
